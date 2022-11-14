@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        align-items: center;
+        width: 350px;
+        height: 100%;
+        background-color: whitesmoke;
+        box-shadow: 1px 1px 20px 10px rgba(0,0,0,0.1);
+    }
+    .topdiv{
+        height: 2px;
+        width: 100%;
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="card-wrapper">
+        <div class="card">
+            <div class="topdiv"></div>
+            <h2>Name</h2>
+            <div class="description">
+                <h3>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eligendi.
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

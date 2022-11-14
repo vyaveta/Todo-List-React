@@ -1,0 +1,70 @@
+body{
+  background-color: lightblue !important;
+}
+.header{
+  height: 200px;
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* .popup-form{
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+} */
+
+/* some code for the card component */
+.card-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0%;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: lightblue;
+}
+.cards{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  width: 350px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 20px 10px rgba(0,0,0,0.1);
+}
+.card h2{
+  text-decoration: underline;
+}
+.topdiv{
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
+.button-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+
+}
